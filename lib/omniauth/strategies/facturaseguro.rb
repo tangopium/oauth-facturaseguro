@@ -6,7 +6,7 @@ module OmniAuth
       option :client_options, {
         :site => 'https://login.facturaseguro.cl',
         :authorize_url => 'https://login.facturaseguro.cl/oauth/authorize',
-        :token_url => 'https://login.facturaseguro.cl/login/oauth/access_token'
+        :token_url => 'https://login.facturaseguro.cl/oauth/token'
       }
 
       def request_phase
